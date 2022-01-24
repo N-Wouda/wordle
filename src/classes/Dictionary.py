@@ -1,4 +1,5 @@
 class Dictionary:
+    words: list[str]
 
     def __init__(self, loc: str):
         with open(loc, 'r') as fh:

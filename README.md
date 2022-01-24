@@ -5,3 +5,7 @@ Given a list of correct letters, hints, and earlier guesses, it outputs words th
 New dictionaries can be added in `dicts/` - currently only Dutch and English are supported.
 
 For usage, run `python wordle.py`, without any arguments.
+
+## Tests
+
+Run `python -m unittest` from the project root to exercise the test cases.

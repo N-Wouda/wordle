@@ -8,6 +8,11 @@ class Wordle:
     hints: str
     correct: str
 
+    def __post_init__(self):
+        self.guesses = [guess.upper() for guess in self.guesses]
+        self.hints = self.hints.upper()
+        self.correct = self.correct.upper()
+
     @property
     def not_in_word(self) -> set[str]:
         correct = set(self.correct)
@@ -19,6 +24,9 @@ class Wordle:
                 if char not in correct and char not in hints}
 
     def match(self, guess: str) -> bool:
+        assert guess.isalpha()
+        guess = guess.upper()
+
         hint_count = Counter(self.hints)
         known_count = Counter(self.correct)
         guess_count = Counter(guess)
