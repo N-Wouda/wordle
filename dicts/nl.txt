@@ -3085,7 +3085,6 @@ gemot
 genas
 genat
 gendt
-gãªne
 genee
 genen
 gener
@@ -3837,7 +3836,6 @@ hozen
 https
 huang
 huber
-huãªt
 hugen
 huibs
 huift
@@ -3859,7 +3857,6 @@ humor
 humus
 hungs
 hunne
-hãºns
 hunze
 hupse
 hupst
@@ -5620,7 +5617,6 @@ manou
 manou
 manse
 manta
-manãº
 manus
 maori
 mapje
@@ -7418,7 +7414,6 @@ ratst
 ratte
 ratum
 raufs
-raãºl
 rauls
 rauwe
 ravel
@@ -9217,7 +9212,6 @@ uppie
 uraan
 urban
 urban
-ãºren
 ureum
 urine
 uriot
